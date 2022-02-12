@@ -13,6 +13,8 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 
+from JsonExtract import getTopExchangeIds
+
 
 
 class CryptoAnalyze():
@@ -72,8 +74,9 @@ def exchangeMap():
 
 def exchangeInfo():
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
+  all_ids, all_ids_one_string = getTopExchangeIds("https://pro-api.coinmarketcap.com/v1/exchange/map".split(".com")[1].replace("/",".")[1:]+".json", 15)
   parameters = {
-    'id':'270,294,513,524,1507,521,538,633,391,407,102,549,311,955,1149,302'
+    'id':all_ids_one_string
   }
   CryptoAnalyze(url, parameters).getResult()
 
