@@ -5,6 +5,7 @@ CryptoAnalyze.
 Usage:
   CryptoAnalyze basic
   CryptoAnalyze exchange [--map|--info]
+  CryptoAnalyze cryptocurrency [--categories]
 """
 from inspect import Parameter
 from requests import Request, Session
@@ -14,60 +15,77 @@ from docopt import docopt
 
 
 
-def getSession():
-  """Setting up session for making api call to coin market cap"""
-  headers = {
-    'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '77c61b7b-0cde-4775-9fa4-1dc7609334d7',
-  }
-  session = Session()
-  session.headers.update(headers)
-  return session
+class CryptoAnalyze():
+  def __init__(self, url, parameters):
+    self.url = url
+    self.parameters = parameters
+    self.output_file = self.url.split(".com")[1].replace("/",".")[1:]+".json"
+  
+  def getResult(self):
+    self.setupSession()
+    self.callAPI()
 
-def callAPI(url, session, parameters, output_file):
-  try:
-    response = session.get(url, params=parameters)
-    data = json.loads(response.text)
-    with open(output_file, 'w') as f:
-      json.dump(data, f, indent=4)
-  except (ConnectionError, Timeout, TooManyRedirects) as e:
-    print(e)
+  def setupSession(self):
+    """Setting up session for making api call to coin market cap"""
+    headers = {
+      'Accepts': 'application/json',
+      'X-CMC_PRO_API_KEY': '77c61b7b-0cde-4775-9fa4-1dc7609334d7',
+    }
+    self.session = Session()
+    self.session.headers.update(headers)
+    return 
+
+  def callAPI(self):
+    try:
+      response = self.session.get(self.url, params=self.parameters)
+      data = json.loads(response.text)
+      with open(self.output_file, 'w') as f:
+        json.dump(data, f, indent=4)
+    except (ConnectionError, Timeout, TooManyRedirects) as e:
+      print(e)
+
+
 
 
 
 def cryptoListing():
   url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
-  session = getSession()
   parameters = {
     'start':'1',
     'limit':'100',
     'convert':'USD'
   }
-  output_file = "cryptocurrency.listings.latest.json"
-  callAPI(url, session, parameters, output_file)
+  CryptoAnalyze(url, parameters).getResult()
+
+  
 
 
 def exchangeMap():
   url = "https://pro-api.coinmarketcap.com/v1/exchange/map"
-  session = getSession()
   parameters = {
     'start':'1',
     'limit':'200',
     'sort':'volume_24h'
   }
-  output_file = "exchange.map.json"
-  callAPI(url, session, parameters, output_file)
+  CryptoAnalyze(url, parameters).getResult()
 
 
 def exchangeInfo():
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
-  session = getSession()
   parameters = {
     'id':'270,294,513,524,1507,521,538,633,391,407,102,549,311,955,1149,302'
   }
-  output_file = "exchange.info.json"
-  callAPI(url, session, parameters, output_file)
+  CryptoAnalyze(url, parameters).getResult()
 
+
+
+def cryptocurrencyCategories():
+  url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/categories"
+  parameters = {
+    'start':'1',
+    'limit':'200'
+  }
+  CryptoAnalyze(url, parameters).getResult()
 
 
 
@@ -83,6 +101,10 @@ def Main():
     elif args["--info"]:
       print("Read top exchange info")
       exchangeInfo()
+  elif args['cryptocurrency']:
+    if args['--categories']:
+      print("Read first 200 cryptocurrencies based on category")
+      cryptocurrencyCategories()
   
   
   return
