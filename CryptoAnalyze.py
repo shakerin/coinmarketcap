@@ -4,7 +4,8 @@ CryptoAnalyze.
 
 Usage:
   CryptoAnalyze basic
-  CryptoAnalyze exchange [--map|--info]
+  CryptoAnalyze exchange info --no=<no>
+  CryptoAnalyze exchange map
   CryptoAnalyze cryptocurrency [--categories]
 """
 from inspect import Parameter
@@ -13,7 +14,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 
-from JsonExtract import getTopExchangeIds
+from JsonExtract import getTopExchangeIds, getTopExchangeNames
 
 
 
@@ -72,9 +73,13 @@ def exchangeMap():
   CryptoAnalyze(url, parameters).getResult()
 
 
-def exchangeInfo():
+def exchangeInfo(no_of_exchanges):
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
-  all_ids, all_ids_one_string = getTopExchangeIds("https://pro-api.coinmarketcap.com/v1/exchange/map".split(".com")[1].replace("/",".")[1:]+".json", 15)
+  json_file_path = "https://pro-api.coinmarketcap.com/v1/exchange/map".split(".com")[1].replace("/",".")[1:]+".json"
+  all_ids, all_ids_one_string = getTopExchangeIds(json_file_path, no_of_exchanges)
+  all_exchanges, all_exchanges_one_string = getTopExchangeNames(json_file_path, no_of_exchanges)
+  for i,exchange in enumerate(all_exchanges):
+    print(str(i+1), ". ", exchange)
   parameters = {
     'id':all_ids_one_string
   }
@@ -98,12 +103,12 @@ def Main():
     print("Read first 100 cryptocurrencies")
     cryptoListing()
   elif args['exchange']:
-    if args["--map"]:
+    if args["map"]:
       print("Read first 200 exchanges and sort by 24h volume")
       exchangeMap()
-    elif args["--info"]:
-      print("Read top exchange info")
-      exchangeInfo()
+    elif args["info"]:
+      print("Read top ", args["--no"], " exchange info")
+      exchangeInfo(int(args["--no"]))
   elif args['cryptocurrency']:
     if args['--categories']:
       print("Read first 200 cryptocurrencies based on category")
