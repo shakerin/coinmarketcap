@@ -14,7 +14,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 
-from JsonExtract import getTopExchangeIds, getTopExchangeNames
+from JsonExtract import getExchangeInfo, getTopExchangeIds, getTopExchangeNames
 
 
 
@@ -78,12 +78,25 @@ def exchangeInfo(no_of_exchanges):
   json_file_path = "https://pro-api.coinmarketcap.com/v1/exchange/map".split(".com")[1].replace("/",".")[1:]+".json"
   all_ids, all_ids_one_string = getTopExchangeIds(json_file_path, no_of_exchanges)
   all_exchanges, all_exchanges_one_string = getTopExchangeNames(json_file_path, no_of_exchanges)
-  for i,exchange in enumerate(all_exchanges):
-    print(str(i+1), ". ", exchange)
   parameters = {
     'id':all_ids_one_string
   }
-  CryptoAnalyze(url, parameters).getResult()
+  ca = CryptoAnalyze(url, parameters)
+  ca.getResult()
+  for i,exchange in enumerate(all_exchanges):
+    print(str(i+1), ". ", exchange)
+    print("======================================")
+    exchange_info = getExchangeInfo(ca.output_file, all_ids[i])
+    print("Description:")
+    print(" ", exchange_info["description"])
+    print("Website              : ", exchange_info["website"])
+    print("Date Launched        : ", exchange_info["date_launched"])
+    print("Spot Volume (in US$) : ", exchange_info["spot_volume_usd"])
+    print("Weekly Visits        : ", exchange_info["weekly_visits"])
+    print("Maker Fee            : ", exchange_info["maker_fee"])
+    print("Taker Fee            : ", exchange_info["taker_fee"])
+    print("======================================")
+  return
 
 
 
