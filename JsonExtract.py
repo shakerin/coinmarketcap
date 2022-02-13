@@ -2,35 +2,43 @@
 import json
 
 def showExchangeNames(json_file):
-  with open(json_file, 'r') as f:
-    data_as_json = f.read()
-  data_as_dict = json.loads(data_as_json)
-  exchange_data_as_list = data_as_dict["data"]
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
   for i, exchange in enumerate(exchange_data_as_list):
     print(str(i+1), ") ", exchange["name"]," (", exchange["id"], ") ", exchange["first_historical_data"])
   
 def getTopExchangeNames(json_file, no):
-  with open(json_file, 'r') as f:
-    data_as_json = f.read()
-    data_as_dict = json.loads(data_as_json)
-    exchange_data_as_list = data_as_dict["data"]
-    exchange_names = []
-    for exchange in exchange_data_as_list[0:no]:
-      exchange_names.append(exchange["name"])
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
+  exchange_names = []
+  for exchange in exchange_data_as_list[0:no]:
+    exchange_names.append(exchange["name"])
   exchange_names_one_string = ",".join(exchange_names)
   return (exchange_names, exchange_names_one_string)
 
 
 def getTopExchangeIds(json_file, no):
-  with open(json_file, 'r') as f:
-    data_as_json = f.read()
-    data_as_dict = json.loads(data_as_json)
-    exchange_data_as_list = data_as_dict["data"]
-    exchange_ids = []
-    for exchange in exchange_data_as_list[0:no]:
-      exchange_ids.append(str(exchange["id"]))
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
+  exchange_ids = []
+  for exchange in exchange_data_as_list[0:no]:
+    exchange_ids.append(str(exchange["id"]))
   exchange_ids_one_string = ",".join(exchange_ids)
   return (exchange_ids, exchange_ids_one_string)
+
+
+class CryptoJsonExtract():
+  def __init__(self, input_json_file):
+    self.input_json_file = input_json_file
+    self.readInputFileAsJson()
+    pass
+
+  def readInputFileAsJson(self):
+    with open(self.input_json_file, 'r') as f:
+      file_content = f.read()
+      self.file_content_as_dict = json.loads(file_content)
+      self.data_in_file_content = self.file_content_as_dict["data"]
+    return
 
 
 
