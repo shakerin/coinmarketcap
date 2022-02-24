@@ -6,7 +6,14 @@ Usage:
   CryptoAnalyze basic
   CryptoAnalyze exchange info --no=<no>
   CryptoAnalyze exchange map
+  CryptoAnalyze exchange compare <exchange1> <exchange2>
   CryptoAnalyze cryptocurrency [--categories]
+
+
+Options:
+  --no=<no>         Number of exchanges to get information about.
+  --categories      Get information based on Cryptocurrenct categories.
+
 """
 from inspect import Parameter
 from requests import Request, Session
@@ -88,7 +95,8 @@ def exchangeInfo(no_of_exchanges):
     print("======================================")
     exchange_info = getExchangeInfo(ca.output_file, all_ids[i])
     print("Description:")
-    print(" ", exchange_info["description"])
+    #print(" ", exchange_info["description"])
+    print("Id                   : ", str(all_ids[i]))
     print("Website              : ", exchange_info["website"])
     print("Date Launched        : ", exchange_info["date_launched"])
     print("Spot Volume (in US$) : ", exchange_info["spot_volume_usd"])
@@ -98,6 +106,17 @@ def exchangeInfo(no_of_exchanges):
     print("======================================")
   return
 
+
+def compareExchanges(exchange1_id, exchange2_id):
+  url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
+  parameters = "n/a"
+  ca = CryptoAnalyze(url, parameters)
+  exchange1_info = getExchangeInfo(ca.output_file, exchange1_id)
+  exchange2_info = getExchangeInfo(ca.output_file, exchange2_id)
+  print("Comparison between," , exchange1_info["name"],  ",", exchange2_info["name"])
+  print("Date Launched," , exchange1_info["date_launched"], ",", exchange2_info["date_launched"])
+  print("Spot Volume (in US$)," , exchange1_info["spot_volume_usd"], ",", exchange2_info["spot_volume_usd"])
+  print("Weekly Visits," , exchange1_info["weekly_visits"], ",", exchange2_info["weekly_visits"])
 
 
 def cryptocurrencyCategories():
@@ -122,6 +141,8 @@ def Main():
     elif args["info"]:
       print("Read top ", args["--no"], " exchange info")
       exchangeInfo(int(args["--no"]))
+    elif args["compare"]:
+      compareExchanges(args["<exchange1>"], args["<exchange2>"])
   elif args['cryptocurrency']:
     if args['--categories']:
       print("Read first 200 cryptocurrencies based on category")
