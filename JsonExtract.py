@@ -60,6 +60,9 @@ def getTopExchangeIds(json_file, no):
   return (exchange_ids, exchange_ids_one_string)
 
 
+
+
+
 def getExchangeInfo(json_file, exchange_id):
   """Returns a dict with all necessary information about an exchange
   
@@ -86,6 +89,82 @@ def getExchangeInfo(json_file, exchange_id):
   exchange_info_as_dict["taker_fee"] = exchange_data_as_list[exchange_id]["taker_fee"]
   return exchange_info_as_dict
 
+
+def getTopCryptocurrencyIds(json_file, no):
+  """This method returns a tuple with cryptocurrency ids as a list and string
+  
+  Arguments:
+  json_file : Path to the json file that contains cryptocurrency information
+              retrived from coin market cap API
+  no        : number of ids that user wants to see
+  
+  returns (cryptocurrency_ids, cryptocurrency_ids_one_string) tuple
+  cryptocurrency_ids            : A list containing cryptocurrency ids
+  cryptocurrency_ids_one_string : Just adds all cryptocurrency ids in the list 
+                            mentioned above and comma between items
+  """
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  cryptocurrency_data_as_list = crypto_json_extract_obj.data_in_file_content
+  cryptocurrency_ids = []
+  for cryptocurrency in cryptocurrency_data_as_list[0:no]:
+    cryptocurrency_ids.append(str(cryptocurrency["id"]))
+  cryptocurrency_ids_one_string = ",".join(cryptocurrency_ids)
+  return (cryptocurrency_ids, cryptocurrency_ids_one_string)
+
+
+
+
+
+
+
+def getTopCryptocurrencyNames(json_file, no):
+  """This method returns a tuple with cryptocurrency names as a list and string
+  
+  Arguments:
+  json_file : Path to the json file that contains cryptocurrency information
+              retrived from coin market cap API
+  no        : number of cryptocurrencies that user wants to see
+  
+  returns (cryptocurrency_names, cryptocurrency_names_one_string) tuple
+  cryptocurrency_names            : A list containing exchange names
+  cryptocurrency_names_one_string : Just adds all exchange names in the list 
+                                    mentioned above and comma between items
+  """
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  cryptocurrency_data_as_list = crypto_json_extract_obj.data_in_file_content
+  cryptocurrency_names = []
+  for cryptocurrency in cryptocurrency_data_as_list[0:no]:
+    cryptocurrency_names.append(cryptocurrency["name"])
+  cryptocurrency_data_as_list = ",".join(cryptocurrency_names)
+  return (cryptocurrency_names, cryptocurrency_data_as_list)
+
+def getCryptocurrencyInfo(json_file, cryptocurrency_id):
+  """Returns a dict with all necessary information about a cryptocurrency
+  
+  information includes -
+    - name
+    - description
+    - website
+    - date_launched
+    - spot_volume_usd
+    - weekly_visits
+    - maker_fee
+    - taker_fee 
+  """
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  cryptocurrency_data_as_list = crypto_json_extract_obj.data_in_file_content
+  cryptocurrency_info_as_dict = {}
+  cryptocurrency_info_as_dict["name"] = cryptocurrency_data_as_list[cryptocurrency_id]["name"]
+  cryptocurrency_info_as_dict["symbol"] = cryptocurrency_data_as_list[cryptocurrency_id]["symbol"]
+  cryptocurrency_info_as_dict["category"] = cryptocurrency_data_as_list[cryptocurrency_id]["category"]
+  cryptocurrency_info_as_dict["description"] = cryptocurrency_data_as_list[cryptocurrency_id]["description"]
+  cryptocurrency_info_as_dict["platform"] = cryptocurrency_data_as_list[cryptocurrency_id]["platform"]
+  cryptocurrency_info_as_dict["date_added"] = cryptocurrency_data_as_list[cryptocurrency_id]["date_added"]
+  cryptocurrency_info_as_dict["date_launched"] = cryptocurrency_data_as_list[cryptocurrency_id]["date_launched"]
+  cryptocurrency_info_as_dict["self_reported_circulating_supply"] = cryptocurrency_data_as_list[cryptocurrency_id]["self_reported_circulating_supply"]
+  cryptocurrency_info_as_dict["self_reported_market_cap"] = cryptocurrency_data_as_list[cryptocurrency_id]["self_reported_market_cap"]
+  cryptocurrency_info_as_dict["contract_address"] = cryptocurrency_data_as_list[cryptocurrency_id]["contract_address"]
+  return cryptocurrency_info_as_dict
 
 
 
@@ -114,8 +193,13 @@ def Main():
   #ex_names = getTopExchangeNames(json_file, 15)
   #print(ex_names)
   #ex_ids = getTopExchangeIds(json_file, 15)
-  getExchangeInfo("v1.exchange.info.json", "102")
+  #getExchangeInfo("v1.exchange.info.json", "102")
   #print(ex_ids)
+  json_file = "v1.cryptocurrency.map.json"
+  #cc_names = getTopCryptocurrencyNames(json_file, 20)
+  #print(cc_names)
+  cc_ids = getTopCryptocurrencyIds(json_file, 20)
+  print(cc_ids)
 
 if __name__ == "__main__":
   Main()

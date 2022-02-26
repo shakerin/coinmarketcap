@@ -4,10 +4,11 @@ CryptoAnalyze.
 
 Usage:
   CryptoAnalyze basic
-  CryptoAnalyze exchange info --no=<no>
   CryptoAnalyze exchange map
+  CryptoAnalyze exchange info --no=<no>
   CryptoAnalyze exchange compare <exchange1> <exchange2>
-  CryptoAnalyze cryptocurrency [--categories]
+  CryptoAnalyze cryptocurrency [--categories|--map]
+  CryptoAnalyze cryptocurrency info --no=<no>
 
 
 Options:
@@ -21,7 +22,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 
-from JsonExtract import getExchangeInfo, getTopExchangeIds, getTopExchangeNames
+from JsonExtract import getExchangeInfo, getCryptocurrencyInfo, getTopCryptocurrencyIds, getTopCryptocurrencyNames, getTopExchangeIds, getTopExchangeNames
 
 
 
@@ -125,6 +126,16 @@ def compareExchanges(exchange1_id, exchange2_id):
 
 
 
+def cryptocurrenctMap():
+  url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map"
+  parameters = {
+    'start':'1',
+    'limit':'5000',
+    'sort':'cmc_rank',
+  }
+  CryptoAnalyze(url, parameters).getResult()
+
+
 
 
 def cryptocurrencyCategories():
@@ -134,6 +145,44 @@ def cryptocurrencyCategories():
     'limit':'200'
   }
   CryptoAnalyze(url, parameters).getResult()
+
+
+
+def cryptocurrencyInfo(no_of_exchanges):
+  url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/info"
+  json_file_path = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map".split(".com")[1].replace("/",".")[1:]+".json"
+  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_exchanges)
+  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_exchanges)
+  parameters = {
+    'id':all_ids_one_string
+  }
+  ca = CryptoAnalyze(url, parameters)
+  ca.getResult()
+  for i,cryptocurrency in enumerate(all_cryptocurrencies):
+    print(str(i+1), ". ", cryptocurrency)
+    print("======================================")
+    cryptocurrency_info = getCryptocurrencyInfo(ca.output_file, all_ids[i])
+    print("Description:")
+    #print(" ", exchange_info["description"])
+    print("Id                   : ", str(all_ids[i]))
+    print("Name                 : ", cryptocurrency_info["name"])
+    print("Symbol               : ", cryptocurrency_info["symbol"])
+    print("Category             : ", cryptocurrency_info["category"])
+    print("Description          : ", cryptocurrency_info["description"])
+    print("Platform             : ", cryptocurrency_info["platform"])
+    print("Date added           : ", cryptocurrency_info["date_added"])
+    print("Date launched        : ", cryptocurrency_info["date_launched"])
+    print("Circulating Supply   : ", cryptocurrency_info["self_reported_circulating_supply"])
+    print("Market Cap           : ", cryptocurrency_info["self_reported_market_cap"])
+    print("Contract Addresses:")
+    print("--------------------------------------")
+    for i, platform in enumerate(cryptocurrency_info["contract_address"]):
+      print("  ", str(i+1), ") Platform Name    : ", platform["platform"]["name"])
+      print("    ",         ") Platform Id      : ", str(platform["platform"]["coin"]["id"]))
+      print("    ",         ") Contract Address : ", platform["contract_address"])
+    print("======================================")
+  return
+
 
 
 
@@ -154,11 +203,16 @@ def Main():
     elif args["compare"]:
       compareExchanges(args["<exchange1>"], args["<exchange2>"])
   elif args['cryptocurrency']:
-    if args['--categories']:
-      print("Read first 200 cryptocurrencies based on category")
-      cryptocurrencyCategories()
-  
-  
+    if args["info"]:
+      print("Read top ", args["--no"], " cryptocurrency info")
+      cryptocurrencyInfo(int(args["--no"]))
+    else:
+      if args['--categories']:
+        print("Read first 200 cryptocurrencies based on category")
+        cryptocurrencyCategories()
+      elif args['--map']:
+        print("Read cryptocurrenct map for 5000 coins sorted by cmc_rank")
+        cryptocurrenctMap()
   return
 
 
