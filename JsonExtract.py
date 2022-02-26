@@ -2,6 +2,10 @@
 import json
 
 def showExchangeNames(json_file):
+  """This method just prints all exchanges names found
+  
+  returns nothing
+  """
   crypto_json_extract_obj = CryptoJsonExtract(json_file)
   exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
   for i, exchange in enumerate(exchange_data_as_list):
@@ -11,6 +15,18 @@ def showExchangeNames(json_file):
 
 
 def getTopExchangeNames(json_file, no):
+  """This method returns a tuple with exchange names as a list and string
+  
+  Arguments:
+  json_file : Path to the json file that contains exchange information
+              retrived from coin market cap API
+  no        : number of exchanges that user wants to see
+  
+  returns (exchange_names, exchange_names_one_string) tuple
+  exchange_names            : A list containing exchange names
+  exchange_names_one_string : Just adds all exchange names in the list 
+                              mentioned above and comma between items
+  """
   crypto_json_extract_obj = CryptoJsonExtract(json_file)
   exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
   exchange_names = []
@@ -23,6 +39,18 @@ def getTopExchangeNames(json_file, no):
 
 
 def getTopExchangeIds(json_file, no):
+  """This method returns a tuple with exchange ids as a list and string
+  
+  Arguments:
+  json_file : Path to the json file that contains exchange information
+              retrived from coin market cap API
+  no        : number of ids that user wants to see
+  
+  returns (exchange_ids, exchange_ids_one_string) tuple
+  exchange_ids            : A list containing exchange ids
+  exchange_ids_one_string : Just adds all exchange ids in the list 
+                            mentioned above and comma between items
+  """
   crypto_json_extract_obj = CryptoJsonExtract(json_file)
   exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
   exchange_ids = []
@@ -33,6 +61,18 @@ def getTopExchangeIds(json_file, no):
 
 
 def getExchangeInfo(json_file, exchange_id):
+  """Returns a dict with all necessary information about an exchange
+  
+  information includes -
+    - name
+    - description
+    - website
+    - date_launched
+    - spot_volume_usd
+    - weekly_visits
+    - maker_fee
+    - taker_fee 
+  """
   crypto_json_extract_obj = CryptoJsonExtract(json_file)
   exchange_data_as_list = crypto_json_extract_obj.data_in_file_content
   exchange_info_as_dict = {}
@@ -50,6 +90,10 @@ def getExchangeInfo(json_file, exchange_id):
 
 
 class CryptoJsonExtract():
+  """ A simple class to contain extracted data from json file
+  that stored information obtained from coin market cap API
+  about exchanges
+  """
   def __init__(self, input_json_file):
     self.input_json_file = input_json_file
     self.readInputFileAsJson()

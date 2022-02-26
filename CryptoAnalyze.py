@@ -80,6 +80,8 @@ def exchangeMap():
   CryptoAnalyze(url, parameters).getResult()
 
 
+
+
 def exchangeInfo(no_of_exchanges):
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
   json_file_path = "https://pro-api.coinmarketcap.com/v1/exchange/map".split(".com")[1].replace("/",".")[1:]+".json"
@@ -107,6 +109,9 @@ def exchangeInfo(no_of_exchanges):
   return
 
 
+
+
+
 def compareExchanges(exchange1_id, exchange2_id):
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
   parameters = "n/a"
@@ -119,6 +124,9 @@ def compareExchanges(exchange1_id, exchange2_id):
   print("Weekly Visits," , exchange1_info["weekly_visits"], ",", exchange2_info["weekly_visits"])
 
 
+
+
+
 def cryptocurrencyCategories():
   url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/categories"
   parameters = {
@@ -126,6 +134,8 @@ def cryptocurrencyCategories():
     'limit':'200'
   }
   CryptoAnalyze(url, parameters).getResult()
+
+
 
 
 
