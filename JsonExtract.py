@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 
 def showExchangeNames(json_file):
   """This method just prints all exchanges names found
@@ -168,6 +169,32 @@ def getCryptocurrencyInfo(json_file, cryptocurrency_id):
 
 
 
+
+
+def getCryptocurrencyQuotes(json_file, cryptocurrency_id):
+  """Returns a dict with all necessary information about a cryptocurrency
+  
+  information includes -
+    - name
+  """
+  crypto_json_extract_obj = CryptoJsonExtract(json_file)
+  cryptocurrency_data_as_list = crypto_json_extract_obj.data_in_file_content
+  cryptocurrency_info_as_dict = {}
+  cryptocurrency_info_as_dict["name"] = cryptocurrency_data_as_list[cryptocurrency_id]["name"]
+  cryptocurrency_info_as_dict["symbol"] = cryptocurrency_data_as_list[cryptocurrency_id]["symbol"]
+  cryptocurrency_info_as_dict["is_fiat"] = cryptocurrency_data_as_list[cryptocurrency_id]["is_fiat"]
+  cryptocurrency_info_as_dict["is_active"] = cryptocurrency_data_as_list[cryptocurrency_id]["is_active"]
+  cryptocurrency_info_as_dict["last_updated"] = cryptocurrency_data_as_list[cryptocurrency_id]["last_updated"]
+  cryptocurrency_info_as_dict["price"] = cryptocurrency_data_as_list[cryptocurrency_id]["quote"]["SGD"]["price"]
+  cryptocurrency_info_as_dict["volume_24h"] = cryptocurrency_data_as_list[cryptocurrency_id]["quote"]["SGD"]["volume_24h"]
+  cryptocurrency_info_as_dict["market_cap"] = cryptocurrency_data_as_list[cryptocurrency_id]["quote"]["SGD"]["market_cap"]
+  cryptocurrency_info_as_dict["fully_diluted_market_cap"] = cryptocurrency_data_as_list[cryptocurrency_id]["quote"]["SGD"]["fully_diluted_market_cap"]
+  return cryptocurrency_info_as_dict
+
+
+
+
+
 class CryptoJsonExtract():
   """ A simple class to contain extracted data from json file
   that stored information obtained from coin market cap API
@@ -179,10 +206,14 @@ class CryptoJsonExtract():
     pass
 
   def readInputFileAsJson(self):
-    with open(self.input_json_file, 'r') as f:
-      file_content = f.read()
-      self.file_content_as_dict = json.loads(file_content)
-      self.data_in_file_content = self.file_content_as_dict["data"]
+    if os.path.exists(self.input_json_file): 
+      with open(self.input_json_file, 'r') as f:
+        file_content = f.read()
+        self.file_content_as_dict = json.loads(file_content)
+        self.data_in_file_content = self.file_content_as_dict["data"]
+    else:
+      msg = "[JSON file(" +  self.input_json_file + ") missing] Please run appropriate command to download data using coinmarketcap API first."
+      exit(msg)
     return
 
 

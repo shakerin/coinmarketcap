@@ -8,7 +8,7 @@ Usage:
   CryptoAnalyze exchange info --no=<no>
   CryptoAnalyze exchange compare <exchange1> <exchange2>
   CryptoAnalyze cryptocurrency [--categories|--map]
-  CryptoAnalyze cryptocurrency info --no=<no>
+  CryptoAnalyze cryptocurrency (info|quotes) --no=<no>
 
 
 Options:
@@ -22,7 +22,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 
-from JsonExtract import getExchangeInfo, getCryptocurrencyInfo, getTopCryptocurrencyIds, getTopCryptocurrencyNames, getTopExchangeIds, getTopExchangeNames
+from JsonExtract import *
 
 
 
@@ -148,11 +148,11 @@ def cryptocurrencyCategories():
 
 
 
-def cryptocurrencyInfo(no_of_exchanges):
+def cryptocurrencyInfo(no_of_cryptocurrencies):
   url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/info"
   json_file_path = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map".split(".com")[1].replace("/",".")[1:]+".json"
-  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_exchanges)
-  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_exchanges)
+  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_cryptocurrencies)
+  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_cryptocurrencies)
   parameters = {
     'id':all_ids_one_string
   }
@@ -163,7 +163,7 @@ def cryptocurrencyInfo(no_of_exchanges):
     print("======================================")
     cryptocurrency_info = getCryptocurrencyInfo(ca.output_file, all_ids[i])
     print("Description:")
-    #print(" ", exchange_info["description"])
+    #print(" ", cryptocurrency_info["description"])
     print("Id                   : ", str(all_ids[i]))
     print("Name                 : ", cryptocurrency_info["name"])
     print("Symbol               : ", cryptocurrency_info["symbol"])
@@ -184,7 +184,34 @@ def cryptocurrencyInfo(no_of_exchanges):
   return
 
 
-
+def cryptocurrencyQuotes(no_of_exchanges):
+  url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
+  json_file_path = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map".split(".com")[1].replace("/",".")[1:]+".json"
+  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_exchanges)
+  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_exchanges)
+  parameters = {
+    'id':all_ids_one_string,
+    'convert' : "SGD"
+  }
+  ca = CryptoAnalyze(url, parameters)
+  ca.getResult()
+  for i,cryptocurrency in enumerate(all_cryptocurrencies):
+    print(str(i+1), ". ", cryptocurrency)
+    print("======================================")
+    cryptocurrency_info = getCryptocurrencyQuotes(ca.output_file, all_ids[i])
+    print("Quotes:")
+    print("Id                   : ", str(all_ids[i]))
+    print("Name                 : ", cryptocurrency_info["name"])
+    print("Symbol               : ", cryptocurrency_info["symbol"])
+    print("Is Fiat?             : ", cryptocurrency_info["is_fiat"])
+    print("Is Active?           : ", cryptocurrency_info["is_active"])
+    print("Last Updated         : ", cryptocurrency_info["last_updated"])
+    print("Price                : ", cryptocurrency_info["price"])
+    print("Volume 24h           : ", cryptocurrency_info["volume_24h"])
+    print("Market Cap           : ", cryptocurrency_info["market_cap"])
+    print("Fully diluted M.Cap. : ", cryptocurrency_info["fully_diluted_market_cap"])
+    print("======================================")
+  return
 
 
 
@@ -206,6 +233,9 @@ def Main():
     if args["info"]:
       print("Read top ", args["--no"], " cryptocurrency info")
       cryptocurrencyInfo(int(args["--no"]))
+    elif args["quotes"]:
+      print("Read top ", args["--no"], " cryptocurrency quotes")
+      cryptocurrencyQuotes(int(args["--no"]))
     else:
       if args['--categories']:
         print("Read first 200 cryptocurrencies based on category")
