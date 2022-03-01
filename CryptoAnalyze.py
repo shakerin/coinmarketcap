@@ -21,7 +21,6 @@ from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
-
 from JsonExtract import *
 
 
@@ -126,7 +125,7 @@ def compareExchanges(exchange1_id, exchange2_id):
 
 
 
-def cryptocurrenctMap():
+def cryptocurrencyMap():
   url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map"
   parameters = {
     'start':'1',
@@ -195,10 +194,12 @@ def cryptocurrencyQuotes(no_of_exchanges):
   }
   ca = CryptoAnalyze(url, parameters)
   ca.getResult()
+  cryptocurrency_info_list = []
   for i,cryptocurrency in enumerate(all_cryptocurrencies):
+    cryptocurrency_info = getCryptocurrencyQuotes(ca.output_file, all_ids[i])
+    cryptocurrency_info_list.append(cryptocurrency_info)
     print(str(i+1), ". ", cryptocurrency)
     print("======================================")
-    cryptocurrency_info = getCryptocurrencyQuotes(ca.output_file, all_ids[i])
     print("Quotes:")
     print("Id                   : ", str(all_ids[i]))
     print("Name                 : ", cryptocurrency_info["name"])
@@ -211,7 +212,7 @@ def cryptocurrencyQuotes(no_of_exchanges):
     print("Market Cap           : ", cryptocurrency_info["market_cap"])
     print("Fully diluted M.Cap. : ", cryptocurrency_info["fully_diluted_market_cap"])
     print("======================================")
-  return
+  return cryptocurrency_info_list
 
 
 
@@ -242,7 +243,7 @@ def Main():
         cryptocurrencyCategories()
       elif args['--map']:
         print("Read cryptocurrenct map for 5000 coins sorted by cmc_rank")
-        cryptocurrenctMap()
+        cryptocurrencyMap()
   return
 
 
