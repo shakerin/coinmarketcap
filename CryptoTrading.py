@@ -69,11 +69,16 @@ def profitEstimation(coin_1, coin_2):
 def updateExcel(coin_1, coin_2, excel_file):
   pe = ProfitEstimation(coin_1, coin_2)
   workbook = load_workbook(excel_file)
-  output = excel_file.replace(".xlsx", "_2.xlsx")
+  output = excel_file.replace(".xlsx", "_latest_datas.xlsx")
+  if os.path.exists(output):
+    os.remove(output)
+    print(output, " is deleted")
   sheet = workbook.worksheets[1]
   sheet["G11"] = pe.coin_1_price
   sheet["G12"] = pe.coin_2_price
   workbook.save(output)
+  print(output, " is created")
+
   return
 
 
