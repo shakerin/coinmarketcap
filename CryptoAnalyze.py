@@ -22,13 +22,16 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 from docopt import docopt
 from JsonExtract import *
-
+from common_func import *
+from datetime import date
 
 
 class CryptoAnalyze():
   def __init__(self, url, parameters):
     self.url = url
     self.parameters = parameters
+    today = str(date.today()).replace('-','_') 
+    self.stored_file = "historic_data/" + today + "_" + self.url.split(".com")[1].replace("/",".")[1:]+".json"
     self.output_file = self.url.split(".com")[1].replace("/",".")[1:]+".json"
   
   def getResult(self):
@@ -50,6 +53,8 @@ class CryptoAnalyze():
       response = self.session.get(self.url, params=self.parameters)
       data = json.loads(response.text)
       with open(self.output_file, 'w') as f:
+        json.dump(data, f, indent=4)
+      with open(self.stored_file, 'w') as f:
         json.dump(data, f, indent=4)
     except (ConnectionError, Timeout, TooManyRedirects) as e:
       print(e)
@@ -109,9 +114,6 @@ def exchangeInfo(no_of_exchanges):
   return
 
 
-
-
-
 def compareExchanges(exchange1_id, exchange2_id):
   url = "https://pro-api.coinmarketcap.com/v1/exchange/info"
   parameters = "n/a"
@@ -133,7 +135,6 @@ def cryptocurrencyMap():
     'sort':'cmc_rank',
   }
   CryptoAnalyze(url, parameters).getResult()
-
 
 
 
@@ -183,11 +184,11 @@ def cryptocurrencyInfo(no_of_cryptocurrencies):
   return
 
 
-def cryptocurrencyQuotes(no_of_exchanges):
+def cryptocurrencyQuotes(no_of_cryptocurrencies):
   url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
   json_file_path = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map".split(".com")[1].replace("/",".")[1:]+".json"
-  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_exchanges)
-  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_exchanges)
+  all_ids, all_ids_one_string = getTopCryptocurrencyIds(json_file_path, no_of_cryptocurrencies)
+  all_cryptocurrencies, all_cryptocurrencies_one_string = getTopCryptocurrencyNames(json_file_path, no_of_cryptocurrencies)
   parameters = {
     'id':all_ids_one_string,
     'convert' : "SGD"
@@ -214,7 +215,12 @@ def cryptocurrencyQuotes(no_of_exchanges):
     print("======================================")
   return cryptocurrency_info_list
 
-
+def getCryptoCurrencyQuotes(no_of_cryptocurrencies):
+  blockPrint()
+  cryptocurrencyMap()
+  all_cryptocurrency_info = cryptocurrencyQuotes(50)
+  enablePrint()
+  return all_cryptocurrency_info
 
 def Main():
   args = docopt(__doc__, version='CryptoAnalyze 1.0')

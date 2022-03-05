@@ -1,0 +1,4207 @@
+{
+    "status": {
+        "timestamp": "2022-03-05T05:09:58.262Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 72,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": {
+        "1": {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "num_market_pairs": 9214,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "sha-256",
+                    "name": "SHA-256",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "store-of-value",
+                    "name": "Store Of Value",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "state-channel",
+                    "name": "State Channel",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "three-arrows-capital-portfolio",
+                    "name": "Three Arrows Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-labs-portfolio",
+                    "name": "Binance Labs Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "blockchain-capital-portfolio",
+                    "name": "Blockchain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dragonfly-capital-portfolio",
+                    "name": "DragonFly Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "electric-capital-portfolio",
+                    "name": "Electric Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fabric-ventures-portfolio",
+                    "name": "Fabric Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "framework-ventures-portfolio",
+                    "name": "Framework Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "galaxy-digital-portfolio",
+                    "name": "Galaxy Digital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "huobi-capital-portfolio",
+                    "name": "Huobi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "1confirmation-portfolio",
+                    "name": "1Confirmation Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "winklevoss-capital-portfolio",
+                    "name": "Winklevoss Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "usv-portfolio",
+                    "name": "USV Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "placeholder-ventures-portfolio",
+                    "name": "Placeholder Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "paradigm-portfolio",
+                    "name": "Paradigm Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 21000000,
+            "circulating_supply": 18974775,
+            "total_supply": 18974775,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 1,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 52898.10450758636,
+                    "volume_24h": 37316022427.58304,
+                    "volume_change_24h": 1.6925,
+                    "percent_change_1h": -0.45152613,
+                    "percent_change_24h": -6.2260431,
+                    "percent_change_7d": -2.21469273,
+                    "percent_change_30d": 5.31012268,
+                    "percent_change_60d": -15.71495251,
+                    "percent_change_90d": -20.72430235,
+                    "market_cap": 1003729630957.9369,
+                    "market_cap_dominance": 42.3773,
+                    "fully_diluted_market_cap": 1110860194659.3083,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "2": {
+            "id": 2,
+            "name": "Litecoin",
+            "symbol": "LTC",
+            "slug": "litecoin",
+            "num_market_pairs": 739,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "scrypt",
+                    "name": "Scrypt",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 84000000,
+            "circulating_supply": 69772543.77791464,
+            "total_supply": 84000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 21,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 137.5832907289918,
+                    "volume_24h": 1136772688.0750504,
+                    "volume_change_24h": -15.9667,
+                    "percent_change_1h": -0.10058619,
+                    "percent_change_24h": -5.38992578,
+                    "percent_change_7d": -10.43289699,
+                    "percent_change_30d": -6.38104852,
+                    "percent_change_60d": -31.458415,
+                    "percent_change_90d": -36.48386733,
+                    "market_cap": 9599536175.498138,
+                    "market_cap_dominance": 0.4053,
+                    "fully_diluted_market_cap": 11556996421.231949,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "52": {
+            "id": 52,
+            "name": "XRP",
+            "symbol": "XRP",
+            "slug": "xrp",
+            "num_market_pairs": 686,
+            "date_added": "2013-08-04T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "arrington-xrp-capital-portfolio",
+                    "name": "Arrington XRP Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "galaxy-digital-portfolio",
+                    "name": "Galaxy Digital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 100000000000,
+            "circulating_supply": 47949281138,
+            "total_supply": 99989739391,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 6,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.9791127854780758,
+                    "volume_24h": 2968018810.602964,
+                    "volume_change_24h": -2.6246,
+                    "percent_change_1h": -0.25287071,
+                    "percent_change_24h": -3.15286258,
+                    "percent_change_7d": -8.04212795,
+                    "percent_change_30d": 19.32382832,
+                    "percent_change_60d": -13.09002152,
+                    "percent_change_90d": -12.96111951,
+                    "market_cap": 46947754216.69854,
+                    "market_cap_dominance": 1.9823,
+                    "fully_diluted_market_cap": 97911278547.80724,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "74": {
+            "id": 74,
+            "name": "Dogecoin",
+            "symbol": "DOGE",
+            "slug": "dogecoin",
+            "num_market_pairs": 452,
+            "date_added": "2013-12-15T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "scrypt",
+                    "name": "Scrypt",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "memes",
+                    "name": "Memes",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "doggone-doggerel",
+                    "name": "Doggone Doggerel",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 132670764299.89409,
+            "total_supply": 132670764299.89409,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 13,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.16632322347229772,
+                    "volume_24h": 812007377.7473391,
+                    "volume_change_24h": 6.5146,
+                    "percent_change_1h": -0.39871828,
+                    "percent_change_24h": -2.91958253,
+                    "percent_change_7d": -6.17077556,
+                    "percent_change_30d": -11.5178128,
+                    "percent_change_60d": -27.89024555,
+                    "percent_change_90d": -31.03454041,
+                    "market_cap": 22066229178.891823,
+                    "market_cap_dominance": 0.9316,
+                    "fully_diluted_market_cap": 22066229178.896503,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "328": {
+            "id": 328,
+            "name": "Monero",
+            "symbol": "XMR",
+            "slug": "monero",
+            "num_market_pairs": 168,
+            "date_added": "2014-05-21T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "privacy",
+                    "name": "Privacy",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "ringct",
+                    "name": "RingCT",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "electric-capital-portfolio",
+                    "name": "Electric Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "galaxy-digital-portfolio",
+                    "name": "Galaxy Digital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 18087971.95430767,
+            "total_supply": 18087971.95430767,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 43,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 212.7659109209719,
+                    "volume_24h": 239891602.57374564,
+                    "volume_change_24h": 14.6566,
+                    "percent_change_1h": -0.23362292,
+                    "percent_change_24h": -10.2616378,
+                    "percent_change_7d": 0.33951667,
+                    "percent_change_30d": 8.53369807,
+                    "percent_change_60d": -30.94062998,
+                    "percent_change_90d": -22.48678622,
+                    "market_cap": 3848503829.571264,
+                    "market_cap_dominance": 0.1625,
+                    "fully_diluted_market_cap": 3848503829.5740247,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "512": {
+            "id": 512,
+            "name": "Stellar",
+            "symbol": "XLM",
+            "slug": "stellar",
+            "num_market_pairs": 407,
+            "date_added": "2014-08-05T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "decentralized-exchange",
+                    "name": "Decentralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 50001806812,
+            "circulating_supply": 24566060967.47473,
+            "total_supply": 50001788143.14908,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 31,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.23752243444803212,
+                    "volume_24h": 371603288.53563005,
+                    "volume_change_24h": 5.1201,
+                    "percent_change_1h": -0.50526923,
+                    "percent_change_24h": -4.54272774,
+                    "percent_change_7d": -11.17959856,
+                    "percent_change_30d": -9.11507188,
+                    "percent_change_60d": -37.81784398,
+                    "percent_change_90d": -37.65955131,
+                    "market_cap": 5834990605.793377,
+                    "market_cap_dominance": 0.2464,
+                    "fully_diluted_market_cap": 11876550880.789438,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "825": {
+            "id": 825,
+            "name": "Tether",
+            "symbol": "USDT",
+            "slug": "tether",
+            "num_market_pairs": 29100,
+            "date_added": "2015-02-25T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "stablecoin",
+                    "name": "Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "asset-backed-stablecoin",
+                    "name": "Asset-Backed Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "avalanche-ecosystem",
+                    "name": "Avalanche Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "solana-ecosystem",
+                    "name": "Solana Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 79713056448.09529,
+            "total_supply": 82164697048.77821,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            },
+            "is_active": 1,
+            "cmc_rank": 3,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.3608636058666723,
+                    "volume_24h": 79422901899.33934,
+                    "volume_change_24h": -3.4699,
+                    "percent_change_1h": -0.08172953,
+                    "percent_change_24h": -0.14094002,
+                    "percent_change_7d": -1.00641353,
+                    "percent_change_30d": -0.014763,
+                    "percent_change_60d": 0.01114675,
+                    "percent_change_90d": -0.04180211,
+                    "market_cap": 108478597432.60855,
+                    "market_cap_dominance": 4.5803,
+                    "fully_diluted_market_cap": 111814945900.74834,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1027": {
+            "id": 1027,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "num_market_pairs": 5542,
+            "date_added": "2015-08-07T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "ethereum-ecosystem",
+                    "name": "Ethereum Ecosystem",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "three-arrows-capital-portfolio",
+                    "name": "Three Arrows Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-labs-portfolio",
+                    "name": "Binance Labs Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "blockchain-capital-portfolio",
+                    "name": "Blockchain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dragonfly-capital-portfolio",
+                    "name": "DragonFly Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "electric-capital-portfolio",
+                    "name": "Electric Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fabric-ventures-portfolio",
+                    "name": "Fabric Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "framework-ventures-portfolio",
+                    "name": "Framework Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "huobi-capital-portfolio",
+                    "name": "Huobi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "1confirmation-portfolio",
+                    "name": "1Confirmation Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "winklevoss-capital-portfolio",
+                    "name": "Winklevoss Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "usv-portfolio",
+                    "name": "USV Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "placeholder-ventures-portfolio",
+                    "name": "Placeholder Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "paradigm-portfolio",
+                    "name": "Paradigm Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 119829570.3115,
+            "total_supply": 119829570.3115,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 2,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 3562.7916522892983,
+                    "volume_24h": 17613388687.205627,
+                    "volume_change_24h": -9.0768,
+                    "percent_change_1h": -0.2999648,
+                    "percent_change_24h": -4.15977412,
+                    "percent_change_7d": -7.58803573,
+                    "percent_change_30d": -1.5939335,
+                    "percent_change_60d": -29.88394855,
+                    "percent_change_90d": -37.13278704,
+                    "market_cap": 426927792803.2257,
+                    "market_cap_dominance": 18.0263,
+                    "fully_diluted_market_cap": 426927792803.23193,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1274": {
+            "id": 1274,
+            "name": "Waves",
+            "symbol": "WAVES",
+            "slug": "waves",
+            "num_market_pairs": 161,
+            "date_added": "2016-06-02T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "lpos",
+                    "name": "LPoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 107651704,
+            "total_supply": 107651704,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 48,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 24.766921196173076,
+                    "volume_24h": 1436192714.7884307,
+                    "volume_change_24h": -18.2968,
+                    "percent_change_1h": -0.8139011,
+                    "percent_change_24h": -11.59510683,
+                    "percent_change_7d": 60.09454012,
+                    "percent_change_30d": 112.90440983,
+                    "percent_change_60d": 18.99606694,
+                    "percent_change_90d": -2.13659818,
+                    "market_cap": 2666201269.60175,
+                    "market_cap_dominance": 0.1126,
+                    "fully_diluted_market_cap": 2666201269.601651,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1321": {
+            "id": 1321,
+            "name": "Ethereum Classic",
+            "symbol": "ETC",
+            "slug": "ethereum-classic",
+            "num_market_pairs": 289,
+            "date_added": "2016-07-24T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "ethash",
+                    "name": "Ethash",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 210700000,
+            "circulating_supply": 133343875.89131945,
+            "total_supply": 210700000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 35,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 36.79745849100777,
+                    "volume_24h": 598112719.6232338,
+                    "volume_change_24h": -30.388,
+                    "percent_change_1h": -0.26366036,
+                    "percent_change_24h": -7.89792259,
+                    "percent_change_7d": -8.99411924,
+                    "percent_change_30d": 3.87145823,
+                    "percent_change_60d": -21.5286227,
+                    "percent_change_90d": -31.7258857,
+                    "market_cap": 4906715738.140919,
+                    "market_cap_dominance": 0.2072,
+                    "fully_diluted_market_cap": 7753224504.054813,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1720": {
+            "id": 1720,
+            "name": "IOTA",
+            "symbol": "MIOTA",
+            "slug": "iota",
+            "num_market_pairs": 73,
+            "date_added": "2017-06-13T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "dag",
+                    "name": "DAG",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "iot",
+                    "name": "IoT",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "sharing-economy",
+                    "name": "Sharing Economy",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 2779530283,
+            "circulating_supply": 2779530283,
+            "total_supply": 2779530283,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 47,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.9624448925140401,
+                    "volume_24h": 41258908.33911407,
+                    "volume_change_24h": -1.0495,
+                    "percent_change_1h": -0.89712273,
+                    "percent_change_24h": -4.76177677,
+                    "percent_change_7d": -6.8004542,
+                    "percent_change_30d": -16.85445244,
+                    "percent_change_60d": -48.01353276,
+                    "percent_change_90d": -39.85602846,
+                    "market_cap": 2675144724.4614544,
+                    "market_cap_dominance": 0.1129,
+                    "fully_diluted_market_cap": 2675144724.467336,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1765": {
+            "id": 1765,
+            "name": "EOS",
+            "symbol": "EOS",
+            "slug": "eos",
+            "num_market_pairs": 427,
+            "date_added": "2017-07-01T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "fenbushi-capital-portfolio",
+                    "name": "Fenbushi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "galaxy-digital-portfolio",
+                    "name": "Galaxy Digital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 982062185.5892,
+            "total_supply": 1048648410.9451,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 49,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 2.705462975412272,
+                    "volume_24h": 474689278.4783731,
+                    "volume_change_24h": 16.9611,
+                    "percent_change_1h": -0.3632229,
+                    "percent_change_24h": -5.11849836,
+                    "percent_change_7d": -10.31492247,
+                    "percent_change_30d": -12.51720279,
+                    "percent_change_60d": -37.03869177,
+                    "percent_change_90d": -36.1528906,
+                    "market_cap": 2656932882.6640363,
+                    "market_cap_dominance": 0.1122,
+                    "fully_diluted_market_cap": 2837079450.043556,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1831": {
+            "id": 1831,
+            "name": "Bitcoin Cash",
+            "symbol": "BCH",
+            "slug": "bitcoin-cash",
+            "num_market_pairs": 574,
+            "date_added": "2017-07-23T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "pow",
+                    "name": "PoW",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "sha-256",
+                    "name": "SHA-256",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "marketplace",
+                    "name": "Marketplace",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "store-of-value",
+                    "name": "Store Of Value",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 21000000,
+            "circulating_supply": 18999618.75,
+            "total_supply": 18999618.75,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 27,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 389.54256270860213,
+                    "volume_24h": 5151705264.192917,
+                    "volume_change_24h": -3.1578,
+                    "percent_change_1h": -0.46171117,
+                    "percent_change_24h": -6.96418334,
+                    "percent_change_7d": -11.49353526,
+                    "percent_change_30d": 3.25048182,
+                    "percent_change_60d": -33.41415232,
+                    "percent_change_90d": -38.8412685,
+                    "market_cap": 7401160178.361408,
+                    "market_cap_dominance": 0.3125,
+                    "fully_diluted_market_cap": 8180393816.886649,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1839": {
+            "id": 1839,
+            "name": "BNB",
+            "symbol": "BNB",
+            "slug": "bnb",
+            "num_market_pairs": 732,
+            "date_added": "2017-07-25T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "marketplace",
+                    "name": "Marketplace",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "centralized-exchange",
+                    "name": "Centralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 165116760,
+            "circulating_supply": 165116760.89,
+            "total_supply": 165116760.89,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 4,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 505.3125474761189,
+                    "volume_24h": 2342014270.8943396,
+                    "volume_change_24h": 4.3965,
+                    "percent_change_1h": -0.67382683,
+                    "percent_change_24h": -6.11671063,
+                    "percent_change_7d": -3.06521738,
+                    "percent_change_30d": 1.51325652,
+                    "percent_change_60d": -26.87395175,
+                    "percent_change_90d": -34.20249694,
+                    "market_cap": 83435571076.33109,
+                    "market_cap_dominance": 3.5226,
+                    "fully_diluted_market_cap": 83435570626.59834,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1958": {
+            "id": 1958,
+            "name": "TRON",
+            "symbol": "TRX",
+            "slug": "tron",
+            "num_market_pairs": 574,
+            "date_added": "2017-09-13T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "media",
+                    "name": "Media",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "tron-ecosystem",
+                    "name": "TRON Ecosystem",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 101729462401.36475,
+            "total_supply": 101729463145.38391,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 25,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": 71659659264,
+            "self_reported_market_cap": 4174082197.427594,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.07924736020135026,
+                    "volume_24h": 1039226594.1363618,
+                    "volume_change_24h": 12.442,
+                    "percent_change_1h": -0.42833756,
+                    "percent_change_24h": -0.95569013,
+                    "percent_change_7d": -5.15768821,
+                    "percent_change_30d": -1.0220088,
+                    "percent_change_60d": -23.8086992,
+                    "percent_change_90d": -31.94433737,
+                    "market_cap": 8061791350.01067,
+                    "market_cap_dominance": 0.3404,
+                    "fully_diluted_market_cap": 8061791408.977939,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1966": {
+            "id": 1966,
+            "name": "Decentraland",
+            "symbol": "MANA",
+            "slug": "decentraland",
+            "num_market_pairs": 245,
+            "date_added": "2017-09-17T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "gaming",
+                    "name": "Gaming",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "metaverse",
+                    "name": "Metaverse",
+                    "category": "APPLICATION"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fabric-ventures-portfolio",
+                    "name": "Fabric Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polygon-ecosystem",
+                    "name": "Polygon Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "play-to-earn",
+                    "name": "Play To Earn",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 1832100998.3634298,
+            "total_supply": 2193809127.320146,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+            },
+            "is_active": 1,
+            "cmc_rank": 30,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 3.3695994568937486,
+                    "volume_24h": 688929205.6036301,
+                    "volume_change_24h": 6.8525,
+                    "percent_change_1h": -0.64570662,
+                    "percent_change_24h": -2.93663006,
+                    "percent_change_7d": -10.62243704,
+                    "percent_change_30d": -0.02313662,
+                    "percent_change_60d": -22.24608269,
+                    "percent_change_90d": -37.56134893,
+                    "market_cap": 6173446529.059908,
+                    "market_cap_dominance": 0.2607,
+                    "fully_diluted_market_cap": 7392258043.94129,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "1975": {
+            "id": 1975,
+            "name": "Chainlink",
+            "symbol": "LINK",
+            "slug": "chainlink",
+            "num_market_pairs": 603,
+            "date_added": "2017-09-20T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "oracles",
+                    "name": "Oracles",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "substrate",
+                    "name": "Substrate",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polkadot",
+                    "name": "Polkadot",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "polkadot-ecosystem",
+                    "name": "Polkadot Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "avalanche-ecosystem",
+                    "name": "Avalanche Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "solana-ecosystem",
+                    "name": "Solana Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "framework-ventures-portfolio",
+                    "name": "Framework Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polygon-ecosystem",
+                    "name": "Polygon Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fantom-ecosystem",
+                    "name": "Fantom Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cardano-ecosystem",
+                    "name": "Cardano Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "web3",
+                    "name": "Web3",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "near-protocol-ecosystem",
+                    "name": "Near Protocol Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cardano",
+                    "name": "Cardano",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 1000000000,
+            "circulating_supply": 467009549.5205637,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            "is_active": 1,
+            "cmc_rank": 23,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 18.606672240365,
+                    "volume_24h": 941836443.3864007,
+                    "volume_change_24h": 3.4876,
+                    "percent_change_1h": -0.22155383,
+                    "percent_change_24h": -4.24463064,
+                    "percent_change_7d": -6.9828324,
+                    "percent_change_30d": -12.5261941,
+                    "percent_change_60d": -40.29927999,
+                    "percent_change_90d": -31.38986617,
+                    "market_cap": 8689493621.049637,
+                    "market_cap_dominance": 0.3669,
+                    "fully_diluted_market_cap": 18606672240.368973,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "2010": {
+            "id": 2010,
+            "name": "Cardano",
+            "symbol": "ADA",
+            "slug": "cardano",
+            "num_market_pairs": 370,
+            "date_added": "2017-10-01T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "dpos",
+                    "name": "DPoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "pos",
+                    "name": "PoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "research",
+                    "name": "Research",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "staking",
+                    "name": "Staking",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cardano-ecosystem",
+                    "name": "Cardano Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cardano",
+                    "name": "Cardano",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 45000000000,
+            "circulating_supply": 33674554291.593,
+            "total_supply": 34162713384.255,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 8,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.137577443753829,
+                    "volume_24h": 1408559651.192493,
+                    "volume_change_24h": -1.5852,
+                    "percent_change_1h": -0.23381649,
+                    "percent_change_24h": -3.9858464,
+                    "percent_change_7d": -9.99791738,
+                    "percent_change_30d": -18.89729868,
+                    "percent_change_60d": -36.17021447,
+                    "percent_change_90d": -39.69704987,
+                    "market_cap": 38307413390.579895,
+                    "market_cap_dominance": 1.6175,
+                    "fully_diluted_market_cap": 51190984968.91621,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "2011": {
+            "id": 2011,
+            "name": "Tezos",
+            "symbol": "XTZ",
+            "slug": "tezos",
+            "num_market_pairs": 203,
+            "date_added": "2017-10-06T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "pos",
+                    "name": "PoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "winklevoss-capital-portfolio",
+                    "name": "Winklevoss Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 886348928.360055,
+            "total_supply": 908290189.217479,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 45,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 4.13287632445434,
+                    "volume_24h": 161610496.0140205,
+                    "volume_change_24h": 7.8043,
+                    "percent_change_1h": -0.70351395,
+                    "percent_change_24h": -7.65450926,
+                    "percent_change_7d": -10.72677263,
+                    "percent_change_30d": -19.37467619,
+                    "percent_change_60d": -35.31265006,
+                    "percent_change_90d": -25.2459649,
+                    "market_cap": 3663170501.2247477,
+                    "market_cap_dominance": 0.1547,
+                    "fully_diluted_market_cap": 3753851018.7475,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "2280": {
+            "id": 2280,
+            "name": "Filecoin",
+            "symbol": "FIL",
+            "slug": "filecoin",
+            "num_market_pairs": 180,
+            "date_added": "2017-12-13T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "distributed-computing",
+                    "name": "Distributed Computing",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "filesharing",
+                    "name": "Filesharing",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "storage",
+                    "name": "Storage",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "blockchain-capital-portfolio",
+                    "name": "Blockchain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "winklevoss-capital-portfolio",
+                    "name": "Winklevoss Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "web3",
+                    "name": "Web3",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 172378528,
+            "total_supply": 172378528,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 38,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 25.40979264734704,
+                    "volume_24h": 502441791.4850291,
+                    "volume_change_24h": 10.4933,
+                    "percent_change_1h": -0.28879064,
+                    "percent_change_24h": -3.18825983,
+                    "percent_change_7d": -3.33090702,
+                    "percent_change_30d": -6.88073727,
+                    "percent_change_60d": -46.38553145,
+                    "percent_change_90d": -54.17248803,
+                    "market_cap": 4380102653.334906,
+                    "market_cap_dominance": 0.1849,
+                    "fully_diluted_market_cap": 4380102653.329644,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "2416": {
+            "id": 2416,
+            "name": "Theta Network",
+            "symbol": "THETA",
+            "slug": "theta-network",
+            "num_market_pairs": 101,
+            "date_added": "2018-01-17T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "media",
+                    "name": "Media",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "content-creation",
+                    "name": "Content Creation",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "video",
+                    "name": "Video",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "metaverse",
+                    "name": "Metaverse",
+                    "category": "APPLICATION"
+                },
+                {
+                    "slug": "huobi-capital-portfolio",
+                    "name": "Huobi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "web3",
+                    "name": "Web3",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 1000000000,
+            "circulating_supply": 1000000000,
+            "total_supply": 1000000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 44,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 3.8007217379292033,
+                    "volume_24h": 282068676.4037399,
+                    "volume_change_24h": -19.1377,
+                    "percent_change_1h": -1.09805381,
+                    "percent_change_24h": -6.00205727,
+                    "percent_change_7d": -3.03587353,
+                    "percent_change_30d": 2.3764296,
+                    "percent_change_60d": -39.3416411,
+                    "percent_change_90d": -44.21230319,
+                    "market_cap": 3800721737.929203,
+                    "market_cap_dominance": 0.1605,
+                    "fully_diluted_market_cap": 3800721737.93023,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3077": {
+            "id": 3077,
+            "name": "VeChain",
+            "symbol": "VET",
+            "slug": "vechain",
+            "num_market_pairs": 169,
+            "date_added": "2017-08-22T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "logistics",
+                    "name": "Logistics",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "data-provenance",
+                    "name": "Data Provenance",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "iot",
+                    "name": "IoT",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fenbushi-capital-portfolio",
+                    "name": "Fenbushi Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 86712634466,
+            "circulating_supply": 64315576989,
+            "total_supply": 86712634466,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 39,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.06566313316839555,
+                    "volume_24h": 498155611.8322171,
+                    "volume_change_24h": -38.8716,
+                    "percent_change_1h": -1.01186851,
+                    "percent_change_24h": -7.47169285,
+                    "percent_change_7d": -1.13282261,
+                    "percent_change_30d": -6.77969486,
+                    "percent_change_60d": -42.7939569,
+                    "percent_change_90d": -48.80171357,
+                    "market_cap": 4223162296.630903,
+                    "market_cap_dominance": 0.1783,
+                    "fully_diluted_market_cap": 5693823264.321443,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3408": {
+            "id": 3408,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "slug": "usd-coin",
+            "num_market_pairs": 3178,
+            "date_added": "2018-10-08T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "stablecoin",
+                    "name": "Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "asset-backed-stablecoin",
+                    "name": "Asset-Backed Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fantom-ecosystem",
+                    "name": "Fantom Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 52852539212.53479,
+            "total_supply": 52852539212.53479,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "is_active": 1,
+            "cmc_rank": 5,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.3606307941565954,
+                    "volume_24h": 6056822595.258582,
+                    "volume_change_24h": 7.1043,
+                    "percent_change_1h": -0.05507434,
+                    "percent_change_24h": -0.10369949,
+                    "percent_change_7d": -0.93407104,
+                    "percent_change_30d": 0.07634521,
+                    "percent_change_60d": -0.01517982,
+                    "percent_change_90d": 0.02867814,
+                    "market_cap": 71912792401.94382,
+                    "market_cap_dominance": 3.0361,
+                    "fully_diluted_market_cap": 71912792401.94633,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3513": {
+            "id": 3513,
+            "name": "Fantom",
+            "symbol": "FTM",
+            "slug": "fantom",
+            "num_market_pairs": 255,
+            "date_added": "2018-10-29T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "research",
+                    "name": "Research",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "scaling",
+                    "name": "Scaling",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fantom-ecosystem",
+                    "name": "Fantom Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 3175000000,
+            "circulating_supply": 2545006273,
+            "total_supply": 2545006273,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 32,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 2.2139765882343063,
+                    "volume_24h": 1670572453.012169,
+                    "volume_change_24h": -21.195,
+                    "percent_change_1h": -1.11571861,
+                    "percent_change_24h": -9.79166255,
+                    "percent_change_7d": -6.361725,
+                    "percent_change_30d": -14.83277453,
+                    "percent_change_60d": -43.49007039,
+                    "percent_change_90d": -3.17701203,
+                    "market_cap": 5634584305.331447,
+                    "market_cap_dominance": 0.2379,
+                    "fully_diluted_market_cap": 7029375667.648086,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3635": {
+            "id": 3635,
+            "name": "Cronos",
+            "symbol": "CRO",
+            "slug": "cronos",
+            "num_market_pairs": 129,
+            "date_added": "2018-12-14T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cosmos-ecosystem",
+                    "name": "Cosmos Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "centralized-exchange",
+                    "name": "Centralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "mobile",
+                    "name": "Mobile",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 30263013692,
+            "circulating_supply": 25263013692,
+            "total_supply": 30263013692,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+            },
+            "is_active": 1,
+            "cmc_rank": 18,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.5398953436664834,
+                    "volume_24h": 115832596.09378946,
+                    "volume_change_24h": 2.1201,
+                    "percent_change_1h": -0.31821694,
+                    "percent_change_24h": -4.99751161,
+                    "percent_change_7d": -7.0859691,
+                    "percent_change_30d": -1.056943,
+                    "percent_change_60d": -29.13980695,
+                    "percent_change_90d": -33.32494787,
+                    "market_cap": 13639383459.293417,
+                    "market_cap_dominance": 0.5759,
+                    "fully_diluted_market_cap": 16338860177.622458,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3717": {
+            "id": 3717,
+            "name": "Wrapped Bitcoin",
+            "symbol": "WBTC",
+            "slug": "wrapped-bitcoin",
+            "num_market_pairs": 338,
+            "date_added": "2019-01-30T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "medium-of-exchange",
+                    "name": "Medium of Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "wrapped-tokens",
+                    "name": "Wrapped Tokens",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "fantom-ecosystem",
+                    "name": "Fantom Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 266577.04836194,
+            "total_supply": 266577.04836194,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            },
+            "is_active": 1,
+            "cmc_rank": 17,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 53078.79201723336,
+                    "volume_24h": 337863481.0774313,
+                    "volume_change_24h": -4.6538,
+                    "percent_change_1h": -0.4161643,
+                    "percent_change_24h": -5.85447877,
+                    "percent_change_7d": -2.00947401,
+                    "percent_change_30d": 5.73118183,
+                    "percent_change_60d": -15.52011544,
+                    "percent_change_90d": -19.92967252,
+                    "market_cap": 14149587706.571373,
+                    "market_cap_dominance": 0.5974,
+                    "fully_diluted_market_cap": 14149587706.569176,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3794": {
+            "id": 3794,
+            "name": "Cosmos",
+            "symbol": "ATOM",
+            "slug": "cosmos",
+            "num_market_pairs": 244,
+            "date_added": "2019-03-14T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cosmos-ecosystem",
+                    "name": "Cosmos Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "content-creation",
+                    "name": "Content Creation",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "interoperability",
+                    "name": "Interoperability",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dragonfly-capital-portfolio",
+                    "name": "DragonFly Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "1confirmation-portfolio",
+                    "name": "1Confirmation Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "paradigm-portfolio",
+                    "name": "Paradigm Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 286370297,
+            "total_supply": 0,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 20,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 40.627776733461715,
+                    "volume_24h": 1862545940.9774306,
+                    "volume_change_24h": -21.3434,
+                    "percent_change_1h": -0.50950165,
+                    "percent_change_24h": -12.71842165,
+                    "percent_change_7d": 4.62206653,
+                    "percent_change_30d": 14.38332467,
+                    "percent_change_60d": -23.14534259,
+                    "percent_change_90d": 9.80199574,
+                    "market_cap": 11634588489.611122,
+                    "market_cap_dominance": 0.4912,
+                    "fully_diluted_market_cap": 0,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3890": {
+            "id": 3890,
+            "name": "Polygon",
+            "symbol": "MATIC",
+            "slug": "polygon",
+            "num_market_pairs": 337,
+            "date_added": "2019-04-28T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "scaling",
+                    "name": "Scaling",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "state-channel",
+                    "name": "State Channel",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-launchpad",
+                    "name": "Binance Launchpad",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-labs-portfolio",
+                    "name": "Binance Labs Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polygon-ecosystem",
+                    "name": "Polygon Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 10000000000,
+            "circulating_supply": 7596750960.62,
+            "total_supply": 10000000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 16,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.9964384246465152,
+                    "volume_24h": 1218470985.774597,
+                    "volume_change_24h": -12.2222,
+                    "percent_change_1h": -0.56621384,
+                    "percent_change_24h": -4.69119814,
+                    "percent_change_7d": -6.7548739,
+                    "percent_change_30d": -3.92834074,
+                    "percent_change_60d": -38.55016169,
+                    "percent_change_90d": -23.96246844,
+                    "market_cap": 15166445520.252092,
+                    "market_cap_dominance": 0.6404,
+                    "fully_diluted_market_cap": 19964384246.46471,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "3957": {
+            "id": 3957,
+            "name": "UNUS SED LEO",
+            "symbol": "LEO",
+            "slug": "unus-sed-leo",
+            "num_market_pairs": 19,
+            "date_added": "2019-05-21T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "marketplace",
+                    "name": "Marketplace",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "centralized-exchange",
+                    "name": "Centralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "discount-token",
+                    "name": "Discount Token",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 953954130,
+            "total_supply": 985239504,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+            },
+            "is_active": 1,
+            "cmc_rank": 28,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 7.28800002392259,
+                    "volume_24h": 7898164.53636985,
+                    "volume_change_24h": -17.1326,
+                    "percent_change_1h": -0.13731801,
+                    "percent_change_24h": -3.67232219,
+                    "percent_change_7d": -10.63893213,
+                    "percent_change_30d": 28.57389289,
+                    "percent_change_60d": 42.13039766,
+                    "percent_change_90d": 47.09747123,
+                    "market_cap": 6952417722.261053,
+                    "market_cap_dominance": 0.2935,
+                    "fully_diluted_market_cap": 7180425528.72179,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4023": {
+            "id": 4023,
+            "name": "Bitcoin BEP2",
+            "symbol": "BTCB",
+            "slug": "bitcoin-bep2",
+            "num_market_pairs": 104,
+            "date_added": "2019-06-18T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 105153.69197648,
+            "total_supply": 112501,
+            "platform": {
+                "id": 1839,
+                "name": "BNB Beacon Chain (BEP2)",
+                "symbol": "BNB",
+                "slug": "bnb",
+                "token_address": "BTCB-1DE"
+            },
+            "is_active": 1,
+            "cmc_rank": 33,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 52828.820594701865,
+                    "volume_24h": 41116733.84557659,
+                    "volume_change_24h": 25.4192,
+                    "percent_change_1h": -0.66059697,
+                    "percent_change_24h": -6.20663075,
+                    "percent_change_7d": -2.43004,
+                    "percent_change_30d": 5.21426485,
+                    "percent_change_60d": -15.82824179,
+                    "percent_change_90d": -19.91084011,
+                    "market_cap": 5555145528.296002,
+                    "market_cap_dominance": 0.2346,
+                    "fully_diluted_market_cap": 5943295145.718382,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4030": {
+            "id": 4030,
+            "name": "Algorand",
+            "symbol": "ALGO",
+            "slug": "algorand",
+            "num_market_pairs": 192,
+            "date_added": "2019-06-20T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "pos",
+                    "name": "PoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "research",
+                    "name": "Research",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arrington-xrp-capital-portfolio",
+                    "name": "Arrington XRP Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "usv-portfolio",
+                    "name": "USV Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 10000000000,
+            "circulating_supply": 6620642672.922289,
+            "total_supply": 7057955696.87981,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 29,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.0270142979682764,
+                    "volume_24h": 356886059.5333728,
+                    "volume_change_24h": -16.4504,
+                    "percent_change_1h": -0.084277,
+                    "percent_change_24h": -3.1737456,
+                    "percent_change_7d": -10.85583546,
+                    "percent_change_30d": -18.18664732,
+                    "percent_change_60d": -56.91483948,
+                    "percent_change_90d": -53.50907176,
+                    "market_cap": 6799494686.830097,
+                    "market_cap_dominance": 0.2871,
+                    "fully_diluted_market_cap": 10270142979.681826,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4172": {
+            "id": 4172,
+            "name": "Terra",
+            "symbol": "LUNA",
+            "slug": "terra-luna",
+            "num_market_pairs": 163,
+            "date_added": "2019-07-26T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "cosmos-ecosystem",
+                    "name": "Cosmos Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "store-of-value",
+                    "name": "Store Of Value",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-labs-portfolio",
+                    "name": "Binance Labs Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "solana-ecosystem",
+                    "name": "Solana Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arrington-xrp-capital-portfolio",
+                    "name": "Arrington XRP Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "huobi-capital-portfolio",
+                    "name": "Huobi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "terra-ecosystem",
+                    "name": "Terra Ecosystem",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 370460905.81190574,
+            "total_supply": 783596802.498872,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 7,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 110.89646369675103,
+                    "volume_24h": 4768408238.12346,
+                    "volume_change_24h": -1.638,
+                    "percent_change_1h": -0.55195354,
+                    "percent_change_24h": -12.14326161,
+                    "percent_change_7d": 9.14588343,
+                    "percent_change_30d": 69.79487688,
+                    "percent_change_60d": -6.79242757,
+                    "percent_change_90d": 12.94407034,
+                    "market_cap": 41082804392.43551,
+                    "market_cap_dominance": 1.7345,
+                    "fully_diluted_market_cap": 86898114361.20831,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4195": {
+            "id": 4195,
+            "name": "FTX Token",
+            "symbol": "FTT",
+            "slug": "ftx-token",
+            "num_market_pairs": 114,
+            "date_added": "2019-07-31T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "marketplace",
+                    "name": "Marketplace",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "centralized-exchange",
+                    "name": "Centralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "derivatives",
+                    "name": "Derivatives",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 352170015,
+            "circulating_supply": 137695376.61874375,
+            "total_supply": 333564712.6859715,
+            "platform": {
+                "id": 1839,
+                "name": "BNB Beacon Chain (BEP2)",
+                "symbol": "BNB",
+                "slug": "bnb",
+                "token_address": "FTT-F11"
+            },
+            "is_active": 1,
+            "cmc_rank": 26,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 54.536970183251036,
+                    "volume_24h": 197625692.74491438,
+                    "volume_change_24h": 17.0412,
+                    "percent_change_1h": -0.52787142,
+                    "percent_change_24h": -8.29272354,
+                    "percent_change_7d": -8.8843806,
+                    "percent_change_30d": -5.61783503,
+                    "percent_change_60d": 1.57679925,
+                    "percent_change_90d": -8.65842405,
+                    "market_cap": 7509488649.027949,
+                    "market_cap_dominance": 0.3171,
+                    "fully_diluted_market_cap": 19206285607.48485,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4256": {
+            "id": 4256,
+            "name": "Klaytn",
+            "symbol": "KLAY",
+            "slug": "klaytn",
+            "num_market_pairs": 75,
+            "date_added": "2020-03-30T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 2637685547,
+            "total_supply": 10782297980.8,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 41,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.5397438871431346,
+                    "volume_24h": 73445626.17823628,
+                    "volume_change_24h": -11.3135,
+                    "percent_change_1h": -0.32017673,
+                    "percent_change_24h": -2.03527913,
+                    "percent_change_7d": -8.64615099,
+                    "percent_change_30d": 0.49459158,
+                    "percent_change_60d": -18.10210963,
+                    "percent_change_90d": -12.89141006,
+                    "market_cap": 4061360197.1990457,
+                    "market_cap_dominance": 0.1715,
+                    "fully_diluted_market_cap": 16601977405.286333,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4558": {
+            "id": 4558,
+            "name": "Flow",
+            "symbol": "FLOW",
+            "slug": "flow",
+            "num_market_pairs": 58,
+            "date_added": "2021-01-27T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinfund-portfolio",
+                    "name": "Coinfund Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "ledgerprime-portfolio",
+                    "name": "LedgerPrime Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "animoca-brands-portfolio",
+                    "name": "Animoca Brands Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 331872447,
+            "total_supply": 1378211739,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 50,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 7.828133085663641,
+                    "volume_24h": 182879760.1645231,
+                    "volume_change_24h": 34.0868,
+                    "percent_change_1h": -0.89844902,
+                    "percent_change_24h": -0.90131969,
+                    "percent_change_7d": -1.63852943,
+                    "percent_change_30d": -2.33717623,
+                    "percent_change_60d": -34.40168265,
+                    "percent_change_90d": -42.66327853,
+                    "market_cap": 2597941682.580853,
+                    "market_cap_dominance": 0.1097,
+                    "fully_diluted_market_cap": 10788824913.11397,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4642": {
+            "id": 4642,
+            "name": "Hedera",
+            "symbol": "HBAR",
+            "slug": "hedera",
+            "num_market_pairs": 88,
+            "date_added": "2019-09-17T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "dag",
+                    "name": "DAG",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "marketplace",
+                    "name": "Marketplace",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "payments",
+                    "name": "Payments",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dcg-portfolio",
+                    "name": "DCG Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 50000000000,
+            "circulating_supply": 19565356900.654297,
+            "total_supply": 50000000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 34,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": 19389577881,
+            "self_reported_market_cap": 3987929465.2028127,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 0.2798192962583773,
+                    "volume_24h": 85788391.23890184,
+                    "volume_change_24h": -24.6005,
+                    "percent_change_1h": -0.37799928,
+                    "percent_change_24h": -3.29936453,
+                    "percent_change_7d": -10.02772934,
+                    "percent_change_30d": -6.827255,
+                    "percent_change_60d": -37.14348085,
+                    "percent_change_90d": -27.00343914,
+                    "market_cap": 5474764398.985072,
+                    "market_cap_dominance": 0.2311,
+                    "fully_diluted_market_cap": 13990964812.919546,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4687": {
+            "id": 4687,
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "slug": "binance-usd",
+            "num_market_pairs": 3094,
+            "date_added": "2019-09-20T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "stablecoin",
+                    "name": "Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "asset-backed-stablecoin",
+                    "name": "Asset-Backed Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "harmony-ecosystem",
+                    "name": "Harmony Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 17952166487.869255,
+            "total_supply": 17952166487.869255,
+            "platform": {
+                "id": 1839,
+                "name": "BNB Beacon Chain (BEP2)",
+                "symbol": "BNB",
+                "slug": "bnb",
+                "token_address": "BUSD-BD1"
+            },
+            "is_active": 1,
+            "cmc_rank": 11,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.3600237049118997,
+                    "volume_24h": 6367822705.121757,
+                    "volume_change_24h": -13.9816,
+                    "percent_change_1h": -0.18351931,
+                    "percent_change_24h": -0.09325761,
+                    "percent_change_7d": -1.05842627,
+                    "percent_change_30d": -0.14490772,
+                    "percent_change_60d": -0.09536191,
+                    "percent_change_90d": -0.09389288,
+                    "market_cap": 24415371978.027195,
+                    "market_cap_dominance": 1.0309,
+                    "fully_diluted_market_cap": 24415371978.022465,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "4943": {
+            "id": 4943,
+            "name": "Dai",
+            "symbol": "DAI",
+            "slug": "multi-collateral-dai",
+            "num_market_pairs": 781,
+            "date_added": "2019-11-22T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "stablecoin",
+                    "name": "Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "ethereum-ecosystem",
+                    "name": "Ethereum Ecosystem",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "avalanche-ecosystem",
+                    "name": "Avalanche Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polygon-ecosystem",
+                    "name": "Polygon Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fantom-ecosystem",
+                    "name": "Fantom Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "harmony-ecosystem",
+                    "name": "Harmony Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 9736015563.72067,
+            "total_supply": 9736015563.72067,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            },
+            "is_active": 1,
+            "cmc_rank": 19,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.3599456806246537,
+                    "volume_24h": 635245702.9257852,
+                    "volume_change_24h": 63.1385,
+                    "percent_change_1h": -0.17963807,
+                    "percent_change_24h": -0.21357875,
+                    "percent_change_7d": -1.00435417,
+                    "percent_change_30d": -0.04629928,
+                    "percent_change_60d": 0.01880827,
+                    "percent_change_90d": -0.41027387,
+                    "market_cap": 13240452312.37633,
+                    "market_cap_dominance": 0.559,
+                    "fully_diluted_market_cap": 13240452312.375372,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "5426": {
+            "id": 5426,
+            "name": "Solana",
+            "symbol": "SOL",
+            "slug": "solana",
+            "num_market_pairs": 266,
+            "date_added": "2020-04-10T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "pos",
+                    "name": "PoS",
+                    "category": "CONSENSUS_ALGORITHM"
+                },
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "solana-ecosystem",
+                    "name": "Solana Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "okex-blockdream-ventures-portfolio",
+                    "name": "OKEx Blockdream Ventures Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 320596791.389121,
+            "total_supply": 511616946.142289,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 9,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 118.64072942027583,
+                    "volume_24h": 3264503168.8437357,
+                    "volume_change_24h": 0.3066,
+                    "percent_change_1h": -0.5356018,
+                    "percent_change_24h": -5.08780576,
+                    "percent_change_7d": -7.13369363,
+                    "percent_change_30d": -11.08291839,
+                    "percent_change_60d": -47.81701092,
+                    "percent_change_90d": -55.41578924,
+                    "market_cap": 38035837180.20532,
+                    "market_cap_dominance": 1.6059,
+                    "fully_diluted_market_cap": 60698607674.10151,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "5665": {
+            "id": 5665,
+            "name": "Helium",
+            "symbol": "HNT",
+            "slug": "helium",
+            "num_market_pairs": 42,
+            "date_added": "2020-06-05T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "mineable",
+                    "name": "Mineable",
+                    "category": "OTHER"
+                },
+                {
+                    "slug": "enterprise-solutions",
+                    "name": "Enterprise Solutions",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "distributed-computing",
+                    "name": "Distributed Computing",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "iot",
+                    "name": "IoT",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "usv-portfolio",
+                    "name": "USV Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "multicoin-capital-portfolio",
+                    "name": "Multicoin Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "web3",
+                    "name": "Web3",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 223000000,
+            "circulating_supply": 112716627.09810668,
+            "total_supply": 223000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 46,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 28.685632333365977,
+                    "volume_24h": 43904244.09975683,
+                    "volume_change_24h": -27.7666,
+                    "percent_change_1h": -0.69798181,
+                    "percent_change_24h": -5.95273454,
+                    "percent_change_7d": -13.66586211,
+                    "percent_change_30d": -14.60269316,
+                    "percent_change_60d": -45.53191622,
+                    "percent_change_90d": -41.75548051,
+                    "market_cap": 3233347722.7934046,
+                    "market_cap_dominance": 0.1365,
+                    "fully_diluted_market_cap": 6396896010.340402,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "5805": {
+            "id": 5805,
+            "name": "Avalanche",
+            "symbol": "AVAX",
+            "slug": "avalanche",
+            "num_market_pairs": 203,
+            "date_added": "2020-07-13T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "smart-contracts",
+                    "name": "Smart Contracts",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "avalanche-ecosystem",
+                    "name": "Avalanche Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dragonfly-capital-portfolio",
+                    "name": "DragonFly Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "moonriver-ecosystem",
+                    "name": "Moonriver Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 265436727.929277,
+            "total_supply": 395891289.9134107,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 10,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 101.10512133546112,
+                    "volume_24h": 2359772948.3123007,
+                    "volume_change_24h": 7.0091,
+                    "percent_change_1h": -1.03876768,
+                    "percent_change_24h": -4.35417496,
+                    "percent_change_7d": -8.75212304,
+                    "percent_change_30d": 9.21429704,
+                    "percent_change_60d": -29.53744781,
+                    "percent_change_90d": -16.99439692,
+                    "market_cap": 26837012584.177334,
+                    "market_cap_dominance": 1.1331,
+                    "fully_diluted_market_cap": 40026636902.34764,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "5994": {
+            "id": 5994,
+            "name": "Shiba Inu",
+            "symbol": "SHIB",
+            "slug": "shiba-inu",
+            "num_market_pairs": 316,
+            "date_added": "2020-08-01T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "memes",
+                    "name": "Memes",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "doggone-doggerel",
+                    "name": "Doggone Doggerel",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 549063278876301.94,
+            "total_supply": 589735030408322.8,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+            },
+            "is_active": 1,
+            "cmc_rank": 15,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 3.2481144860020975e-05,
+                    "volume_24h": 1309185367.813454,
+                    "volume_change_24h": -3.4565,
+                    "percent_change_1h": -0.23161917,
+                    "percent_change_24h": -3.23772778,
+                    "percent_change_7d": -5.65877526,
+                    "percent_change_30d": 16.19727951,
+                    "percent_change_60d": -26.87905855,
+                    "percent_change_90d": -34.42340743,
+                    "market_cap": 17834203898.499256,
+                    "market_cap_dominance": 0.753,
+                    "fully_diluted_market_cap": 19155268951.71611,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "6210": {
+            "id": 6210,
+            "name": "The Sandbox",
+            "symbol": "SAND",
+            "slug": "the-sandbox",
+            "num_market_pairs": 198,
+            "date_added": "2020-08-05T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "content-creation",
+                    "name": "Content Creation",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "gaming",
+                    "name": "Gaming",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "ethereum-ecosystem",
+                    "name": "Ethereum Ecosystem",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "binance-launchpad",
+                    "name": "Binance Launchpad",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "metaverse",
+                    "name": "Metaverse",
+                    "category": "APPLICATION"
+                },
+                {
+                    "slug": "play-to-earn",
+                    "name": "Play To Earn",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "animoca-brands-portfolio",
+                    "name": "Animoca Brands Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 3000000000,
+            "circulating_supply": 1124944772.2233226,
+            "total_supply": 3000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+            },
+            "is_active": 1,
+            "cmc_rank": 37,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 3.994491882601357,
+                    "volume_24h": 1037700906.3023522,
+                    "volume_change_24h": -14.076,
+                    "percent_change_1h": -0.87101428,
+                    "percent_change_24h": -2.84716901,
+                    "percent_change_7d": -8.93198056,
+                    "percent_change_30d": -18.45463051,
+                    "percent_change_60d": -46.66101685,
+                    "percent_change_90d": -49.63441002,
+                    "market_cap": 4493582761.020894,
+                    "market_cap_dominance": 0.1897,
+                    "fully_diluted_market_cap": 11983475647.798437,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "6535": {
+            "id": 6535,
+            "name": "NEAR Protocol",
+            "symbol": "NEAR",
+            "slug": "near-protocol",
+            "num_market_pairs": 108,
+            "date_added": "2020-08-11T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "staking",
+                    "name": "Staking",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arrington-xrp-capital-portfolio",
+                    "name": "Arrington XRP Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinfund-portfolio",
+                    "name": "Coinfund Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "electric-capital-portfolio",
+                    "name": "Electric Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fabric-ventures-portfolio",
+                    "name": "Fabric Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "near-protocol-ecosystem",
+                    "name": "Near Protocol Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 1000000000,
+            "circulating_supply": 644703825,
+            "total_supply": 1000000000,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 22,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 14.13647700086836,
+                    "volume_24h": 1358920107.8410504,
+                    "volume_change_24h": 18.7235,
+                    "percent_change_1h": -0.47171753,
+                    "percent_change_24h": -7.30320885,
+                    "percent_change_7d": 11.11696966,
+                    "percent_change_30d": -1.89005348,
+                    "percent_change_60d": -38.78186084,
+                    "percent_change_90d": 31.60100824,
+                    "market_cap": 9113840794.48436,
+                    "market_cap_dominance": 0.3848,
+                    "fully_diluted_market_cap": 14136477000.871435,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "6636": {
+            "id": 6636,
+            "name": "Polkadot",
+            "symbol": "DOT",
+            "slug": "polkadot-new",
+            "num_market_pairs": 314,
+            "date_added": "2020-08-19T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "substrate",
+                    "name": "Substrate",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polkadot",
+                    "name": "Polkadot",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "binance-chain",
+                    "name": "Binance Chain",
+                    "category": "PLATFORM"
+                },
+                {
+                    "slug": "polkadot-ecosystem",
+                    "name": "Polkadot Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "three-arrows-capital-portfolio",
+                    "name": "Three Arrows Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arrington-xrp-capital-portfolio",
+                    "name": "Arrington XRP Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "blockchain-capital-portfolio",
+                    "name": "Blockchain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "boostvc-portfolio",
+                    "name": "BoostVC Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "cms-holdings-portfolio",
+                    "name": "CMS Holdings Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinfund-portfolio",
+                    "name": "Coinfund Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fabric-ventures-portfolio",
+                    "name": "Fabric Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "fenbushi-capital-portfolio",
+                    "name": "Fenbushi Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "hashkey-capital-portfolio",
+                    "name": "Hashkey Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "kenetic-capital-portfolio",
+                    "name": "Kenetic Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "1confirmation-portfolio",
+                    "name": "1Confirmation Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "placeholder-ventures-portfolio",
+                    "name": "Placeholder Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "web3",
+                    "name": "Web3",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "spartan-group",
+                    "name": "Spartan Group",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 987579314.957085,
+            "total_supply": 1103303471.382273,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 12,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": 904869778,
+            "self_reported_market_cap": 14967194429.067564,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 22.503644740742345,
+                    "volume_24h": 1339718531.7523267,
+                    "volume_change_24h": -6.1403,
+                    "percent_change_1h": -0.1031733,
+                    "percent_change_24h": -4.79472535,
+                    "percent_change_7d": -9.27182039,
+                    "percent_change_30d": -10.13511502,
+                    "percent_change_60d": -44.5135017,
+                    "percent_change_90d": -42.16021279,
+                    "market_cap": 22224134057.099934,
+                    "market_cap_dominance": 0.9383,
+                    "fully_diluted_market_cap": 24828349361.209045,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "6783": {
+            "id": 6783,
+            "name": "Axie Infinity",
+            "symbol": "AXS",
+            "slug": "axie-infinity",
+            "num_market_pairs": 192,
+            "date_added": "2020-08-31T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "collectibles-nfts",
+                    "name": "Collectibles & NFTs",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "gaming",
+                    "name": "Gaming",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-launchpad",
+                    "name": "Binance Launchpad",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "metaverse",
+                    "name": "Metaverse",
+                    "category": "APPLICATION"
+                },
+                {
+                    "slug": "defiance-capital-portfolio",
+                    "name": "DeFiance Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "play-to-earn",
+                    "name": "Play To Earn",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "animoca-brands-portfolio",
+                    "name": "Animoca Brands Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 270000000,
+            "circulating_supply": 60907500,
+            "total_supply": 270000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+            },
+            "is_active": 1,
+            "cmc_rank": 40,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 67.37239756851349,
+                    "volume_24h": 412817827.2411692,
+                    "volume_change_24h": -0.139,
+                    "percent_change_1h": -0.82001631,
+                    "percent_change_24h": -3.65873391,
+                    "percent_change_7d": -4.54538113,
+                    "percent_change_30d": 2.56535106,
+                    "percent_change_60d": -47.3782915,
+                    "percent_change_90d": -57.79763987,
+                    "market_cap": 4103484304.904235,
+                    "market_cap_dominance": 0.1732,
+                    "fully_diluted_market_cap": 18190547343.493523,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "6892": {
+            "id": 6892,
+            "name": "Elrond",
+            "symbol": "EGLD",
+            "slug": "elrond-egld",
+            "num_market_pairs": 82,
+            "date_added": "2020-09-04T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "binance-launchpad",
+                    "name": "Binance Launchpad",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "binance-labs-portfolio",
+                    "name": "Binance Labs Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "electric-capital-portfolio",
+                    "name": "Electric Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "elrond-ecosystem",
+                    "name": "Elrond Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 31415926,
+            "circulating_supply": 21599747.48347632,
+            "total_supply": 23016298,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 42,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 179.67835427567812,
+                    "volume_24h": 289371846.7148872,
+                    "volume_change_24h": 19.0255,
+                    "percent_change_1h": -0.56539586,
+                    "percent_change_24h": -7.59547469,
+                    "percent_change_7d": -11.19096463,
+                    "percent_change_30d": -5.27019681,
+                    "percent_change_60d": -43.63310362,
+                    "percent_change_90d": -57.17605055,
+                    "market_cap": 3881007080.601245,
+                    "market_cap_dominance": 0.1639,
+                    "fully_diluted_market_cap": 5644761881.725342,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "7083": {
+            "id": 7083,
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "slug": "uniswap",
+            "num_market_pairs": 341,
+            "date_added": "2020-09-17T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "decentralized-exchange",
+                    "name": "Decentralized Exchange",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defi",
+                    "name": "DeFi",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "dao",
+                    "name": "DAO",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "yield-farming",
+                    "name": "Yield Farming",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "amm",
+                    "name": "AMM",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "coinbase-ventures-portfolio",
+                    "name": "Coinbase Ventures Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "three-arrows-capital-portfolio",
+                    "name": "Three Arrows Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "governance",
+                    "name": "Governance",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "blockchain-capital-portfolio",
+                    "name": "Blockchain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "defiance-capital-portfolio",
+                    "name": "DeFiance Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "alameda-research-portfolio",
+                    "name": "Alameda Research Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "a16z-portfolio",
+                    "name": "a16z Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "pantera-capital-portfolio",
+                    "name": "Pantera Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "parafi-capital",
+                    "name": "ParaFi Capital",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "paradigm-portfolio",
+                    "name": "Paradigm Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "arbitrum-ecosytem",
+                    "name": "Arbitrum Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": 1000000000,
+            "circulating_supply": 687177305.4915878,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+            },
+            "is_active": 1,
+            "cmc_rank": 24,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 11.993496875697446,
+                    "volume_24h": 269756738.32778543,
+                    "volume_change_24h": -0.2755,
+                    "percent_change_1h": -0.45770739,
+                    "percent_change_24h": -4.13020609,
+                    "percent_change_7d": -6.27511963,
+                    "percent_change_30d": -15.40593787,
+                    "percent_change_60d": -50.45491015,
+                    "percent_change_90d": -47.97774659,
+                    "market_cap": 8241658866.463547,
+                    "market_cap_dominance": 0.348,
+                    "fully_diluted_market_cap": 11993496875.70339,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "7129": {
+            "id": 7129,
+            "name": "TerraUSD",
+            "symbol": "UST",
+            "slug": "terrausd",
+            "num_market_pairs": 306,
+            "date_added": "2020-09-21T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "cosmos-ecosystem",
+                    "name": "Cosmos Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "stablecoin",
+                    "name": "Stablecoin",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "terra-ecosystem",
+                    "name": "Terra Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "injective-ecosystem",
+                    "name": "Injective Ecosystem",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "bnb-chain",
+                    "name": "BNB Chain",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 13476003214.792118,
+            "total_supply": 13476003214.792118,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 14,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": null,
+            "self_reported_market_cap": null,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 1.364904081032455,
+                    "volume_24h": 837718572.3545473,
+                    "volume_change_24h": -8.3576,
+                    "percent_change_1h": -0.28155354,
+                    "percent_change_24h": -0.45244978,
+                    "percent_change_7d": -0.98766465,
+                    "percent_change_30d": 0.14620823,
+                    "percent_change_60d": 0.33264945,
+                    "percent_change_90d": 0.0813014,
+                    "market_cap": 18393451783.876247,
+                    "market_cap_dominance": 0.7766,
+                    "fully_diluted_market_cap": 18393451783.87808,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        },
+        "8916": {
+            "id": 8916,
+            "name": "Internet Computer",
+            "symbol": "ICP",
+            "slug": "internet-computer",
+            "num_market_pairs": 101,
+            "date_added": "2021-03-23T00:00:00.000Z",
+            "tags": [
+                {
+                    "slug": "platform",
+                    "name": "Platform",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "distributed-computing",
+                    "name": "Distributed Computing",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "polychain-capital-portfolio",
+                    "name": "Polychain Capital Portfolio",
+                    "category": "PROPERTY"
+                },
+                {
+                    "slug": "exnetwork-capital-portfolio",
+                    "name": "Exnetwork Capital Portfolio",
+                    "category": "PROPERTY"
+                }
+            ],
+            "max_supply": null,
+            "circulating_supply": 208521007.61950788,
+            "total_supply": 477832617.0928901,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 36,
+            "is_fiat": 0,
+            "self_reported_circulating_supply": 208581816.43114606,
+            "self_reported_market_cap": 3585847826.133552,
+            "last_updated": "2022-03-05T05:08:00.000Z",
+            "quote": {
+                "SGD": {
+                    "price": 23.389123994253467,
+                    "volume_24h": 324855033.904149,
+                    "volume_change_24h": -40.5904,
+                    "percent_change_1h": -0.59892985,
+                    "percent_change_24h": -8.96543354,
+                    "percent_change_7d": -4.87848987,
+                    "percent_change_30d": -17.31823368,
+                    "percent_change_60d": -39.40098945,
+                    "percent_change_90d": -45.17809469,
+                    "market_cap": 4877123702.619342,
+                    "market_cap_dominance": 0.2059,
+                    "fully_diluted_market_cap": 11176086329.688465,
+                    "last_updated": "2022-03-05T05:09:14.000Z"
+                }
+            }
+        }
+    }
+}

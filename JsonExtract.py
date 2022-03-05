@@ -212,7 +212,7 @@ class CryptoJsonExtract():
         self.file_content_as_dict = json.loads(file_content)
         self.data_in_file_content = self.file_content_as_dict["data"]
     else:
-      msg = "[JSON file(" +  self.input_json_file + ") missing] Please run appropriate command to download data using coinmarketcap API first."
+      msg = "<JsonExtract>[JSON file(" +  self.input_json_file + ") missing] Please run appropriate command to download data using coinmarketcap API first."
       exit(msg)
     return
 
