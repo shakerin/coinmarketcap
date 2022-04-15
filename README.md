@@ -1,4 +1,4 @@
-# coinmarketcap
+# coinmarketcap (PAUSED now - check out Profit Estimation for latest improvements)
 
 This script is created to utilize coinmarketcap api to extract some exchange and cryptocurrency info that are not easily visible from graph or websites.
 
